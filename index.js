@@ -10,6 +10,8 @@ const newOperationSection = document.querySelector("#new-operation");
 const cancelNewOperationButton = document.querySelector("#cancel-new-operation-button");
 const addNewOperationButton = document.querySelector("#add-new-operation-button");
 
+
+
 categoriesButton.onclick = () => {
     balanceSection.classList.add("is-hidden");
     reportsSection.classList.add("is-hidden");
@@ -34,6 +36,9 @@ newOperationButton.onclick = () => {
     balanceSection.classList.add("is-hidden");
     newOperationSection.classList.remove("is-hidden");
 }
+
+
+
 
 // Temporales hasta que se de funcionalidad al formulario
 
